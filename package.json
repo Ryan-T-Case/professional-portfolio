@@ -1,0 +1,26 @@
+{
+  "name": "professional-portfolio",
+  "version": "1.0.0",
+  "description": "A professional web development portfolio for Ryan Case",
+  "main": "\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D(portfolio.js)",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryan-T-Case/professional-portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "express"
+  ],
+  "author": "Ryan Case",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ryan-T-Case/professional-portfolio/issues"
+  },
+  "homepage": "https://github.com/Ryan-T-Case/professional-portfolio#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
