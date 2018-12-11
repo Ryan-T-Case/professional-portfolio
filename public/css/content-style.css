@@ -1,0 +1,83 @@
+/* ========================================================= */
+/* SITE THEME STYLING BELOW */
+/* ========================================================= */
+
+body {
+    background-color: #1f2041;
+}
+.container {
+    background: url("../assets/textured_paper.png");
+    background-size: cover;
+    height: 100vh;
+    padding: 10px;
+}
+
+.navigate {
+    margin-left: 90%;
+    padding-top: 2%
+}
+
+.home-button, .next-button {
+    background-color: #5da9e9;
+    border: solid 2px #1f2041;
+}
+
+.home-button:hover {
+    background-color: #1f2041;
+    color: #5da9e9;
+}
+
+a:link {
+    text-decoration: none;
+    color: #1f2041;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #1f2041;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #1f2041;
+}
+
+a:active {
+    text-decoration: underline;
+    color: #1f2041;
+}
+
+.chapter {
+    color: #1f2041;
+    margin: auto auto 2% auto;
+}
+
+.header {
+    color: #662729;
+}
+
+hr {
+    height: 3px;
+    background-color: #1f2041;
+}
+
+/* ========================================================= */
+/* ABOUT ME PAGE STYLING BELOW */
+/* ========================================================= */
+.bio-section {
+    margin-top: 5%;
+}
+
+.about-photo {
+    border: solid 5px #662729;
+    height: 65%;
+    margin-left: 5%;
+}
+
+.bio-text {
+    background-color: white;
+    color: #1f2041;
+    border: solid 5px #1f2041;
+    padding: 5px;
+    margin-right: 2%;
+}
