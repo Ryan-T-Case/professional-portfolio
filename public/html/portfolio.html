@@ -31,10 +31,144 @@
             </div>
         </div>
         <hr>
-        <div class="row text-center">
-            <div class="col-md-4">
-                <div class="card">
-                    <img class="card-img-top">
+        <div class="row my-5 mx-auto">
+            <div class="col-4 text-center">
+                <h2 class="header">take.note</h2>
+                <img class="img-fluid rounded-circle portfolio-image" src="../assets/takenote-logo.JPG" alt="take.note logo">
+            </div>
+            <div class="col-4 text-center">
+                <h2 class="header">food·ie</h2>
+                <img class="img-fluid rounded-circle portfolio-image" src="../assets/foodie-logo.png" alt="food·ie logo">
+            </div>
+            <div class="col-4 text-center">
+                <h2 class="header">Riddler's Batman Trivia</h2>
+                <img class="img-fluid rounded-circle portfolio-image" src="../assets/riddler-head.png" alt="Riddler logo">
+            </div>
+        </div>
+        <div class="row mx-auto">
+            <div class="col-4 text-center">
+                <button type="button" class="btn btn-lg home-button my-2" data-toggle="modal" data-target="#takenote-modal">Details</button>
+                <div class="modal fade" id="takenote-modal" tabindex="-1" role="dialog" aria-labelledby="takenote-modal"
+                    aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title header" id="takenote-modal">take.note</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body portfolio-bio">
+                                <img class="img-fluid" src="../assets/takenote-phone-splash.jpg">
+                                <p class="my-2">
+                                    A Responsive RESTful MVC Project Composition and Content Organization Web App
+                                    built with Node, Express, Handlebars, HTML, CSS, Bootstrap, JavaScript, jQuery,
+                                    MySQL, Sequelize and Quill.js word processor.
+                                </p>
+                                <img class="img-fluid" src="../assets/takenote-phone-catch22-03.jpg">
+                                <p class="my-2">
+                                    Keep all your notes organized alongside your project document in a take.note's
+                                    integrated workspace. Keep all your projects together in one place you can access
+                                    online from any device. take.note can help you write books, papers, speeches,
+                                    screenplays, apps, project planning, and more--anything that requires a final
+                                    formatted document using multiple content sources.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <a class="btn rounded home-button" href="https://github.com/LandrumTrev/book-reporter">View
+                                    on GitHub</a>
+                                <a class="btn rounded home-button" href="https://book-reporter.herokuapp.com/">Live
+                                    Heroku App</a>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 text-center">
+                <button type="button" class="btn btn-lg home-button my-2" data-toggle="modal" data-target="#foodie-modal">Details</button>
+                <div class="modal fade" id="foodie-modal" tabindex="-1" role="dialog" aria-labelledby="foodie-modal"
+                    aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title header" id="foodie-modal">food·ie</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body portfolio-bio">
+                                <img class="img-fluid" src="../assets/foodie-screenshot.JPG">
+                                <p class="my-2">
+                                    What is Food·ie? Food·ie is an application designed to simplify finding and cooking
+                                    recipes. It was developed using the Spoonacular and Google Maps API's to populate
+                                    data. Bootstrap was used for styling. For the main logic behind the app, jQuery and
+                                    Javascript were used. Print.js was used to add a printing functionlity for the
+                                    recipes.
+                                </p>
+                                <p>
+                                    How Does Food·ie Work? This app was designed with the intention of making life easy
+                                    for the user. The user picks out their favorite recipes one at a time and compiles
+                                    a shopping list for all the ingredients. Then the user can take that shopping list
+                                    and see where the closest stores are.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <a class="btn rounded home-button" href="https://github.com/Ryan-T-Case/project-1">View
+                                    on GitHub</a>
+                                <a class="btn rounded home-button" href="https://ryan-t-case.github.io/project-1/">Live
+                                    App</a>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 text-center">
+                <button type="button" class="btn btn-lg home-button my-2" data-toggle="modal" data-target="#riddler-modal">Details</button>
+                <div class="modal fade" id="riddler-modal" tabindex="-1" role="dialog" aria-labelledby="riddler-modal"
+                    aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title header" id="riddler-modal">Riddler's Batman Trivia</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body portfolio-bio">
+                                <img class="img-fluid" src="../assets/riddler-screenshot.JPG" alt="screenshot">
+                                <p class="my-2">
+                                    The Riddler's Batman Trivia is a timed quiz game styled with Bootstrap, and
+                                    programmed with JavaScript and jQuery. Timing events were written in JavaScript,
+                                    and jQuery was written to manipulate the DOM.
+                                </p>
+                                <img class="img-fluid" src="../assets/riddler-screenshot-two.JPG" alt="screenshot">
+                                <p class="my-2">
+                                    The game is a timed Batman-themed trivia
+                                    quiz with 10 questions. One question is displayed on the screen at a time, along
+                                    with the timer, which is set to 20 seconds on each question. If the player answers
+                                    correctly, a congratulatory message is displayed for 10 seconds and then the game
+                                    proceeds to the next question without user input. If the player fails to answer a
+                                    question correctly, or within the time limit, a negative message is displayed for
+                                    10 seconds and then the game proceeds to the next question without user input.
+                                    Correct answers, incorrect answers, and questions not answered due to running out
+                                    of time are all logged on screen for the player to be able to track their
+                                    performance. At the end of the game, the player wins if they answer 7 or more
+                                    questions correctly. The message and music that plays at the end of the game
+                                    depends on the player's performance. The player has the option to click a button to
+                                    reset the game once it is over.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <a class="btn rounded home-button" href="https://github.com/Ryan-T-Case/TriviaGame">View
+                                    on GitHub</a>
+                                <a class="btn rounded home-button" href="https://ryan-t-case.github.io/TriviaGame/">Live
+                                    App</a>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

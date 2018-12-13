@@ -172,3 +172,11 @@ hr {
 /* ========================================================= */
 /* PORTFOLIO GALLERY PAGE STYLING BELOW */
 /* ========================================================= */
+.portfolio-image {
+    height: 15rem;
+    width: 15rem;;
+}
+
+.portfolio-bio {
+    color: #5da9e9;
+}
