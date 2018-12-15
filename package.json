@@ -4,7 +4,8 @@
   "description": "A professional web development portfolio for Ryan Case",
   "main": "\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D(portfolio.js)",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
